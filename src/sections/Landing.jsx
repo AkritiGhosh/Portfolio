@@ -18,7 +18,7 @@ const Landing = () => {
           <button
             type="button"
             onClick={(e) => smoothScroll(e, "about")}
-            className="relative w-auto  h-auto group p-2 pr-3 inline-flex gap-4 bg-transparent text-coral
+            className="relative w-auto  h-auto group p-2 pr-3 inline-flex gap-4 items-center bg-transparent text-coral
             after:content-[''] after:w-full after:h-full after:rounded-lg  after:absolute after:top-0 after:left-0 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:ease-linear after:duration-200 after:bg-navy"
           >
             <svg
