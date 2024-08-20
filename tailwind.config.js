@@ -11,8 +11,16 @@ export default {
         dgray: "#747474",
         beige: "#e3dddc",
       },
+      animation: {
+        cursor: "blink 1s linear infinite",
+      },
+      keyframes: {
+        blink: {
+          "0%, 100%": {opacity:1},
+          "50%": {opacity:0},
+        },
+      },
     },
   },
   plugins: [],
 };
-
