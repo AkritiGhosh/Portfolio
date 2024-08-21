@@ -1,4 +1,6 @@
 import AboutMe from "./sections/AboutMe";
+import Experience from "./sections/Experience";
+import Footer from "./sections/Footer";
 import Landing from "./sections/Landing";
 
 export const smoothScroll = (e, sectionId) => {
@@ -13,6 +15,8 @@ function App() {
       <div className="w-full h-full snap-y snap-mandatory overflow-auto">
         <Landing />
         <AboutMe />
+        <Experience />
+        <Footer/>
       </div>
     </main>
   );
