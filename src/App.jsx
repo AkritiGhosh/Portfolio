@@ -2,6 +2,7 @@ import AboutMe from "./sections/AboutMe";
 import Experience from "./sections/Experience";
 import Footer from "./sections/Footer";
 import Landing from "./sections/Landing";
+import Project from "./sections/Project";
 
 export const smoothScroll = (e, sectionId) => {
   let section = document.getElementById(sectionId);
@@ -16,7 +17,8 @@ function App() {
         <Landing />
         <AboutMe />
         <Experience />
-        <Footer/>
+        <Project />
+        <Footer />
       </div>
     </main>
   );
